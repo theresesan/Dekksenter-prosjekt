@@ -6,6 +6,9 @@ import "./App.css";
 // Components
 import Button from "./components/Button";
 
+// Images and Logos
+import FelgImg from "/felgimg.jpg";
+
 function Page3() {
   return (
     <div className="Page3">
@@ -22,7 +25,7 @@ function Page3() {
         <Button />
       </div>
       <div className="Page3-imgbox">
-        <img className="Page3-img" src="/images/felgimg.jpg" alt="Bilde av felger" />
+        <img className="Page3-img" src={FelgImg} alt="Bilde av felger" />
       </div>
     </div>
   );

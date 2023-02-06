@@ -6,13 +6,16 @@ import "./App.css";
 // Components
 import Button from "./components/Button";
 
+// Images and Logos
+import TireImg from "/tire-change.jpg";
+
 function Page2() {
   return (
     <div className="Page2">
       <div className="Page2-imgbox">
         <img
           className="Page2-img"
-          src="/images/tire-change.jpg"
+          src={TireImg}
           alt="Bilde av noen som jobber med dekk"
         />
       </div>

@@ -6,6 +6,9 @@ import "./App.css";
 // Components
 import Button from "./components/Button";
 
+// Images and Logos
+import Dekksenter from "/dekksenter-img.png";
+
 function Page5() {
   return (
     <div className="Page5">
@@ -21,11 +24,7 @@ function Page5() {
         </div>
       </div>
       <div className="Page5-imgbox">
-        <img
-          className="Page5-img"
-          src="/images/dekksenter-img.png"
-          alt="Bilde av felger"
-        />
+        <img className="Page5-img" src={Dekksenter} alt="Bilde av felger" />
       </div>
       <div className="Footer">
         <div className="Mail">

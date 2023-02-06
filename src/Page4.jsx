@@ -6,6 +6,9 @@ import "./App.css";
 // Components
 import Button from "./components/Button";
 
+// Images and Logos
+import DekkhotellImg from "/dekkhotell-img.jpg";
+
 function Page4() {
   return (
     <div className="Page4">
@@ -18,11 +21,7 @@ function Page4() {
             <li>Lastebil og traktor: etter avtale</li>
           </ul>
         </div>
-        <img
-          className="Page4-img"
-          src="/images/dekkhotell-img.jpg"
-          alt="Bilde av felger"
-        />
+        <img className="Page4-img" src={DekkhotellImg} alt="Bilde av felger" />
       </div>
       <div className="Dekkhotell-info">
         <div>

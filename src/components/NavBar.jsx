@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+
+// Images and Logos
 import SannidalDekksenter from "/images/SannidalDekksenter.png";
 
 function NavBar() {
