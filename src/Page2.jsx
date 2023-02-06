@@ -7,7 +7,7 @@ import "./App.css";
 import Button from "./components/Button";
 
 // Images and Logos
-import TireImg from "/tire-change.jpg";
+import TireImg from "/ChangeTires.jpg";
 
 function Page2() {
   return (
