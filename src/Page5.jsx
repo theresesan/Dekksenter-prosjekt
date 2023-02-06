@@ -7,7 +7,7 @@ import "./App.css";
 import Button from "./components/Button";
 
 // Images and Logos
-import Dekksenter from "/dekksenter-img.png";
+import Dekksenter from "/images/dekksenter-img.png";
 
 function Page5() {
   return (
