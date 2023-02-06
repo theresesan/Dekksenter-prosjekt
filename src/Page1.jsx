@@ -6,7 +6,7 @@ import "./App.css";
 // Components
 import Carousel from "./components/Carousel";
 
-import SannidalDekksenter from "/images/SannidalDekksenter.png";
+import Telephone from "/images/maps-and-flags-removebg-preview.png";
 
 function Page1() {
   return (
@@ -15,13 +15,17 @@ function Page1() {
       <div className="flexContainer">
         <div className="firstPageTxt">
           <div className="Flex1">
-            <img className="FirstPageLogo" src={SannidalDekksenter} alt="" />
+            <img
+              className="FirstPageLogo"
+              src=
+              alt=""
+            />
             <p>Refsalen 1, 3766 Sannidal</p>
           </div>
           <div className="Flex2">
             <img
               className="FirstPageLogo"
-              src="/images/telephone-removebg-preview.png"
+              src={Telephone}
               alt=""
             />
             <p>910 09 200</p>
