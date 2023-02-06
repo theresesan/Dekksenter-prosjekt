@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import SannidalDekksenter from "/images/SannidalDekksenter.png";
 
 function NavBar() {
   const location = useLocation();
@@ -14,7 +15,7 @@ function NavBar() {
       <div className="logo-box">
         <img
           className="Nav-logo"
-          src="/images/SannidalDekksenter.png"
+          src={SannidalDekksenter}
           alt="Sannidal Dekksenter logo"
         />
       </div>
