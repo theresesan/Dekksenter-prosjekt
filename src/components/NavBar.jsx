@@ -6,7 +6,7 @@ import SannidalDekksenter from "/images/SannidalDekksenter.png";
 
 function NavBar() {
   const location = useLocation();
-  const [path, setPath] = useState("/Page1");
+  const [path, setPath] = useState("/");
 
   useEffect(() => {
     setPath(location.pathname);
@@ -24,10 +24,7 @@ function NavBar() {
       <div className="flex-list">
         <ul className="Nav-items">
           <li>
-            <Link
-              to="/Page1"
-              className={`list-item ${path === "/Page1" ? "active" : ""}`}
-            >
+            <Link to="/" className={`list-item ${path === "/" ? "active" : ""}`}>
               Forside
             </Link>
           </li>
