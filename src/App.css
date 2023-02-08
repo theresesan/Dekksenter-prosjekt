@@ -54,7 +54,6 @@
   width: 90%;
   justify-content: flex-end;
   font-family: "Jura", sans-serif;
-  margin-left: 15%;
 }
 
 .Nav-items {
@@ -360,47 +359,40 @@
   line-height: 30px;
 }
 
+.FacebookIcon {
+  margin-bottom: 0;
+}
+
 /* Footer */
 
 .Footer-logo {
   color: white;
+  font-size: 15px;
+  font-family: "Jura", sans-serif;
 }
 
 .Footer {
   display: flex;
-  background-color: black;
-  margin-top: 20vh;
+  background-color: rgba(0, 0, 0, 0.956);
   justify-content: center;
   width: 100vw;
-  padding: 40px;
+  padding: 30px;
   align-items: center;
   justify-content: space-around;
+  align-items: flex-start;
+  height: 30vh;
+  margin-top: 10vh;
 }
 
 .material-symbols-outlined {
   color: white;
-  font-size: 60px;
-  margin-bottom: 20%;
+  font-size: 40px;
+  padding: 15px;
 }
 
-.Mail {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.Phone {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.AddresBox {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
+.Mail,
+.Phone,
+.AddresBox,
 .Clock {
   display: flex;
   align-items: center;

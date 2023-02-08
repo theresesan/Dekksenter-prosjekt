@@ -8,6 +8,7 @@ import Button from "./components/Button";
 
 // Images and Logos
 import Dekksenter from "/images/dekksenter-img.png";
+import FacebookIcon from "/images/facebook-icon.png";
 
 function Page5() {
   return (
@@ -21,6 +22,9 @@ function Page5() {
             butikken, dekk verksted, kontorlokaler og utleiedel. Et nytt bygg er
             under oppføring og vil stå ferdig høsten 2020.
           </p>
+          <a href="https://www.facebook.com/sannidaldekkogfelg/" target="_blank">
+            <img src={FacebookIcon} alt="Facebook icon" className="FacebookIcon" />
+          </a>
         </div>
       </div>
       <div className="Page5-imgbox">
