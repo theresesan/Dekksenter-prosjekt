@@ -36,7 +36,7 @@
 
 .Nav-logo {
   width: 250px;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .flex-nav {
@@ -54,14 +54,14 @@
   width: 90%;
   justify-content: flex-end;
   font-family: "Jura", sans-serif;
-  margin-left: 18%;
+  margin-left: 15%;
 }
 
 .Nav-items {
   display: flex;
   flex-direction: row;
   list-style: none;
-  width: 90%;
+  width: 100%;
   margin-top: 1%;
   justify-content: flex-end;
   justify-content: space-around;
@@ -270,11 +270,11 @@
   height: 100%;
   object-fit: cover;
   border: black solid 3px;
-  width: 90%;
+  width: 70%;
 }
 
 .Page4-imgbox {
-  width: 45%;
+  width: 50%;
   height: 88vh;
   margin: 0;
   display: flex;
@@ -288,11 +288,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
   border-radius: 7px;
-  justify-content: center;
   font-family: "Jura", sans-serif;
-  margin-left: 45px;
+  width: 35%;
 }
 
 .Price-list {
@@ -305,7 +304,7 @@
 
 .PriceTxt {
   font-size: 30px;
-  margin-bottom: 30px;
+  padding: 20px;
 }
 
 .Dekkhotell-info {
@@ -315,7 +314,6 @@
   margin-top: 2%;
   font-family: "Jura", sans-serif;
   width: 37%;
-  margin-left: 10%;
 }
 
 .Dekkhotell-txt {

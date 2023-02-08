@@ -15,11 +15,13 @@ function NavBar() {
   return (
     <div className="flex-nav">
       <div className="logo-box">
-        <img
-          className="Nav-logo"
-          src={SannidalDekksenter}
-          alt="Sannidal Dekksenter logo"
-        />
+        <Link to="/">
+          <img
+            className="Nav-logo"
+            src={SannidalDekksenter}
+            alt="Sannidal Dekksenter logo"
+          />
+        </Link>
       </div>
       <div className="flex-list">
         <ul className="Nav-items">
