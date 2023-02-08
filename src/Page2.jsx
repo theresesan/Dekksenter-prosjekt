@@ -7,7 +7,7 @@ import "./App.css";
 import Button from "./components/Button";
 
 // Images and Logos
-import TireImg from "/images/change-tires.jpg";
+import TireImg from "/images/omlegg_dekk.jpeg";
 
 function Page2() {
   return (

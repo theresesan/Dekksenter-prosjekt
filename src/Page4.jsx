@@ -7,7 +7,7 @@ import "./App.css";
 import Button from "./components/Button";
 
 // Images and Logos
-import DekkhotellImg from "/images/dekkhotell-img.jpg";
+import DekkhotellImg from "/images/dekk.jpeg";
 
 function Page4() {
   return (

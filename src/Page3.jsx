@@ -7,7 +7,7 @@ import "./App.css";
 import Button from "./components/Button";
 
 // Images and Logos
-import FelgImg from "/images/felgimg.jpg";
+import FelgImg from "/images/felger.jpeg";
 
 function Page3() {
   return (

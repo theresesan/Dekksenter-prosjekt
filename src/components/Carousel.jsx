@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    { src: "./images/audi-img.jpg", alt: "Image 1" },
-    { src: "./images/tiguan-img.jpg", alt: "Image 2" },
-    { src: "./images/work-img.jpg", alt: "Image 3" },
+    { src: "./images/Car.jpeg", alt: "Image 1" },
+    { src: "./images/svart_bil.jpeg", alt: "Image 2" },
+    { src: "./images/palegg_dekk.jpeg", alt: "Image 3" },
   ];
 
   useEffect(() => {
