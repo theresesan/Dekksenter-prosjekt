@@ -16,6 +16,8 @@ import Page3 from "./Page3";
 import Page4 from "./Page4";
 import Page5 from "./Page5";
 
+import HamburgerMenu from "./components/HamburgerMenu";
+
 // CSS
 import "./App.css";
 
@@ -23,6 +25,7 @@ function App() {
   return (
     <Router>
       <div>
+        <HamburgerMenu />
         <Navbar />
         <Routes>
           <Route path="/" element={<Page1 />} />
