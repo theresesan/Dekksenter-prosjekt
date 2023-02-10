@@ -14,7 +14,9 @@ const HamburgerMenu = () => {
     <nav className="hamburger-menu">
       <div className="menu-logo">
         <div className="SannidalLogo">
-          <img src={SannidalLogo} alt="Sannidal Dekksenter Logo" />
+          <Link to="/">
+            <img src={SannidalLogo} alt="Sannidal Dekksenter Logo" />
+          </Link>
         </div>
         <img src={HamburgerIcon} alt="Menu Icon" onClick={toggleMenu} />
       </div>

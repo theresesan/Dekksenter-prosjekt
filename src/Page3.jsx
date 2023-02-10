@@ -18,11 +18,16 @@ function Page3() {
         </div>
         <div>
           <p className="Felg-info-txt">
-            Vi tilbyr et stort utvalg felger i forskjellige prisklasser og kvalitet,
-            og hjelper deg med å finne de som passer ditt behov best.
+            Hos oss i Sannidal dekk og felg finner du ett godt utvalgt av felger i
+            forskjellige prisklasser og kvalitet. Felger er en langsiktig investering
+            for din bil som er med på løfte bilens utseende. <br /> <br /> Om du er
+            ute etter å ha noen stilige felger til sommersesongen eller bare stilrene
+            som passer hele året, så hjelper vi deg med å finne felger etter ditt
+            behov. Legg inn registreringsnummeret i dekkshop for å se vårt utvalg av
+            felger som passer din bil.
           </p>
         </div>
-        <Button />
+        {/* <Button /> */}
       </div>
       <div className="Page3-imgbox">
         <img className="Page3-img" src={FelgImg} alt="Bilde av felger" />
