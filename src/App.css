@@ -26,6 +26,13 @@
   background-color: #585858;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Shop-btn {
+    width: 8em;
+    font-size: 1.5em;
+  }
+}
+
 /* Button */
 
 .Page1 {
@@ -203,6 +210,7 @@
   .hamburger-menu {
     display: flex;
     align-items: center;
+    margin-top: 2%;
   }
 }
 
@@ -223,13 +231,13 @@
 }
 
 .hamburger-menu .SannidalLogo img {
-  width: 60%;
+  width: 70%;
 }
 
 .hamburger-menu ul {
   display: none;
   position: absolute;
-  top: 13%;
+  top: 18%;
   background-color: #000000b4;
   list-style: none;
   padding: 1.5em;
@@ -277,10 +285,22 @@
   width: 70%;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Page2-img {
+    display: none;
+  }
+}
+
 .Page2-imgbox {
   width: 50%;
   height: 88vh;
   margin: 0;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Page2-imgbox {
+    display: none;
+  }
 }
 
 .Dekk-info {
@@ -292,8 +312,22 @@
   width: 37%;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Dekk-info {
+    width: 100vw;
+    margin-top: 5%;
+    margin: 1.5em;
+  }
+}
+
 .Dekk-txt {
   font-size: 40px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Dekk-txt {
+    font-size: 2em;
+  }
 }
 
 .Dekk-info-txt {
@@ -302,6 +336,15 @@
   text-align: center;
   letter-spacing: 2px;
   line-height: 35px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Dekk-info-txt {
+    font-size: 1em;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5em;
+  }
 }
 
 /* Page 2 */
@@ -324,12 +367,24 @@
   width: 80%;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Page3-img {
+    display: none;
+  }
+}
+
 .Page3-imgbox {
   display: flex;
   width: 50%;
   height: 88vh;
   margin: 0;
   justify-content: flex-end;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Page3-imgbox {
+    display: none;
+  }
 }
 
 .Felg-info {
@@ -341,8 +396,21 @@
   width: 37%;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Felg-info {
+    width: 100vw;
+    margin: 1em;
+  }
+}
+
 .Felg-txt {
   font-size: 40px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Felg-txt {
+    font-size: 2em;
+  }
 }
 
 .Felg-info-txt {
@@ -351,6 +419,15 @@
   text-align: center;
   letter-spacing: 2px;
   line-height: 35px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Felg-info-txt {
+    font-size: 1em;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5em;
+  }
 }
 
 /* Page 3 */
