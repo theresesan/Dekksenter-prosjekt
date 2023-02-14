@@ -8,6 +8,7 @@ import Button from "./components/Button";
 
 // Images and Logos
 import TireImg from "/images/omlegg_dekk.jpeg";
+import Banner from "/images/tire-banner.jpg";
 
 function Page2() {
   return (
@@ -19,17 +20,21 @@ function Page2() {
           alt="Bilde av noen som jobber med dekk"
         />
       </div>
+      <div>
+        <img className="TireBanner" src={Banner} alt="" />
+      </div>
       <div className="Dekk-info">
         <div>
           <h2 className="Dekk-txt">Dekk</h2>
         </div>
         <div>
           <p className="Dekk-info-txt">
-            Vi har dekk til alle typer personbiler, varebiler, ATV og traktor. Vi
-            legger om og avbalanserer. Ring og bestill time, eller vi bytter mens du
-            venter. <br /> <br /> <br />
-            Vil du ikke oppbevare dekkene dine selv eller har ikke plass. Vi har
-            dekkhotell!
+            Er på tide med nye dekk? Å velge riktig dekk viktig for å være trygg på
+            veien uansett vær og føre. Hos oss finner du ett godt utvalg av dekk i
+            forskjellige prisklasser. Vi hjelper deg med å finne de riktige dekkene
+            som er best for din bil av både sommerdekk, vinterdekk og piggdekk. Vi
+            har dekk til alle typer personbiler, varebiler, ATV og traktor. <br />{" "}
+            <br /> Ring og bestill time, eller vi bytter mens du venter.
           </p>
         </div>
         <Button />

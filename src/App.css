@@ -11,8 +11,8 @@
   width: 200px;
   height: 60px;
   background-color: #b50420;
-  border-radius: 15px;
-  margin-top: 20%;
+  border-radius: 10px;
+  margin-top: 5%;
   border: none;
   font-size: 30px;
   font-weight: 500;
@@ -21,16 +21,19 @@
   letter-spacing: 2px;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Shop-btn {
+    font-size: 1.3em;
+    padding: 0.3em;
+    height: 4em;
+    width: 8em;
+    margin-top: 15%;
+  }
+}
+
 .Shop-btn:hover {
   cursor: pointer;
   background-color: #585858;
-}
-
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .Shop-btn {
-    width: 8em;
-    font-size: 1.5em;
-  }
 }
 
 /* Button */
@@ -278,6 +281,21 @@
   display: flex;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .TireBanner {
+    height: 10%;
+    position: absolute;
+    width: 100vw;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .TireBanner {
+    display: none;
+  }
+}
+
 .Page2-img {
   height: 100%;
   object-fit: cover;
@@ -307,9 +325,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2%;
   font-family: "Jura", sans-serif;
   width: 37%;
+  margin-top: 2%;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -327,6 +345,7 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Dekk-txt {
     font-size: 2em;
+    margin-top: 80%;
   }
 }
 
@@ -340,10 +359,11 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Dekk-info-txt {
-    font-size: 1em;
+    font-size: 0.9em;
     align-items: center;
     text-align: center;
     line-height: 1.5em;
+    margin-top: 7%;
   }
 }
 
