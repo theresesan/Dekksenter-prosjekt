@@ -29,14 +29,20 @@ function Page4() {
         </div>
         <div>
           <p className="Dekkhotell-info-txt">
-            Vårt dekkhotell sparer deg plass og sørger for trygg lagring for dine
-            dekk. Overlat til oss å håndtere de skitne hjulene, og frigjør plass i
-            hjemmet. Sjekk av lufttrykk og mønsterdybde Bedre holdbarhet på felger
-            Forutsigbare kostnader Frigjøring av plass i bod/garasje Sjekk av
-            lufttrykk og mønsterdybde Kontroll av TPMS-sensor Slitasje, ujevnheter og
-            skader oppdages tidligere.
+            Vårt dekkhotell sparer deg plass og sørger for trygg lagring av dine dekk
+            i riktig temperatur, lysforhold og oppbevaringsmåte hele året for bedre
+            holdbarhet. Overlat til oss å håndtere de skitne hjulene, og frigjør
+            plass i hjemmet. Vi tar oss av sjekk av lufttrykk og mønsterdybde ved
+            bruk av TPMS-sensor hvor slitasje, ujevnheter og skader oppdages
+            tidligere. Når det er på tide å skifte hjul er dekkene i god stand og
+            klar for en ny sesong på veien.
           </p>
         </div>
+        <ul className="Price-list">
+          <li>Personbil og suv: 799,-</li>
+          <li>Bobil og lett lastebil: 899,-</li>
+          <li>Lastebil og traktor: etter avtale</li>
+        </ul>
         {/* <Button /> */}
       </div>
     </div>

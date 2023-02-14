@@ -8,7 +8,7 @@ import Button from "./components/Button";
 
 // Images and Logos
 import FelgImg from "/images/felger.jpeg";
-import Banner from "/images/tire-banner.jpg";
+import Banner from "/images/rim-banner.jpg";
 
 function Page3() {
   return (

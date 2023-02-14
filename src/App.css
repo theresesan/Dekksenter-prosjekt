@@ -40,19 +40,20 @@
 /* Button */
 
 .Page1 {
-  height: 83vh;
+  height: 85vh;
 }
 
 /* Nav-bar styling */
 
 .Nav-logo {
-  width: 250px;
+  width: 230px;
   margin-left: 10%;
 }
 
 .flex-nav {
   display: flex;
   margin-right: 0;
+  height: 15vh;
 }
 
 .flex-list {
@@ -242,6 +243,7 @@
 .hamburger-menu ul {
   display: none;
   position: absolute;
+  height: 45%;
   top: 18%;
   background-color: #000000f1;
   list-style: none;
@@ -261,6 +263,7 @@
   padding: 10px 20px;
   border-bottom: 1px solid #dddddd;
   text-align: center;
+  margin-top: 2%;
 }
 
 .hamburger-menu li a {
@@ -272,6 +275,7 @@
 
 .hamburger-menu li a:hover {
   color: grey;
+  transition: 0.3s;
 }
 
 /* Hamburger Menu */
@@ -279,14 +283,14 @@
 /* Page 2 */
 
 .Page2 {
-  height: 83vh;
+  height: 85vh;
   border-top: solid black 5px;
   display: flex;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .TireBanner {
-    height: 15%;
+    height: 18%;
     position: absolute;
     width: 100vw;
     object-fit: cover;
@@ -301,7 +305,7 @@
 }
 
 .Page2-img {
-  height: 100%;
+  height: 85vh;
   object-fit: cover;
   border: black solid 3px;
   width: 70%;
@@ -315,7 +319,7 @@
 
 .Page2-imgbox {
   width: 50%;
-  height: 88vh;
+  height: 84vh;
   margin: 0;
 }
 
@@ -342,21 +346,21 @@
 }
 
 .Dekk-txt {
-  font-size: 40px;
+  font-size: 3em;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Dekk-txt {
     font-size: 1.7em;
-    margin-top: 140%;
+    margin-top: 145%;
   }
 }
 
 .Dekk-info-txt {
-  margin-top: 30px;
-  font-size: 20px;
+  margin-top: 1em;
+  font-size: 1.3em;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 0.1em;
   line-height: 35px;
 }
 
@@ -376,7 +380,7 @@
 /* Page 3 */
 
 .Page3 {
-  height: 83vh;
+  height: 85vh;
   border-top: solid black 5px;
   display: flex;
   width: 100vw;
@@ -385,7 +389,7 @@
 }
 
 .Page3-img {
-  height: 100%;
+  height: 85vh;
   object-fit: cover;
   border: black solid 3px;
   width: 80%;
@@ -400,7 +404,7 @@
 .Page3-imgbox {
   display: flex;
   width: 50%;
-  height: 88vh;
+  height: 85vh;
   margin: 0;
   justify-content: flex-end;
 }
@@ -434,13 +438,13 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Felg-txt {
     font-size: 1.7em;
-    margin-top: 180%;
+    margin-top: 200%;
   }
 }
 
 .Felg-info-txt {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 1.3em;
   text-align: center;
   letter-spacing: 2px;
   line-height: 35px;
@@ -464,13 +468,13 @@
 /* Page 4 */
 
 .Page4 {
-  height: 83vh;
+  height: 85vh;
   border-top: solid black 5px;
   display: flex;
 }
 
 .Page4-img {
-  height: 100%;
+  height: 85vh;
   object-fit: cover;
   border: black solid 3px;
   width: 70%;
@@ -484,7 +488,7 @@
 
 .Page4-imgbox {
   width: 50%;
-  height: 88vh;
+  height: 85vh;
   margin: 0;
   display: flex;
   align-items: center;
@@ -509,12 +513,35 @@
   width: 35%;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .List-dekkhotell {
+    display: none;
+  }
+}
+
 .Price-list {
   list-style: none;
   letter-spacing: 2px;
   line-height: 40px;
   font-size: 20px;
   text-align: center;
+  display: flex;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Price-list {
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 2em;
+    background-color: #000000ec;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 1em;
+    color: white;
+  }
 }
 
 .PriceTxt {
@@ -531,13 +558,30 @@
   width: 37%;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Dekkhotell-info {
+    margin: 0 auto;
+    margin-top: 5%;
+    font-weight: 500;
+    width: auto;
+  }
+}
+
 .Dekkhotell-txt {
   font-size: 40px;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Dekkhotell-txt {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
+
 .Dekkhotell-info-txt {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 1.3em;
   text-align: center;
   letter-spacing: 2px;
   line-height: 35px;
