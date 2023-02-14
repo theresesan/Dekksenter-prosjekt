@@ -37,7 +37,7 @@ function Page4() {
             skader oppdages tidligere.
           </p>
         </div>
-        <Button />
+        {/* <Button /> */}
       </div>
     </div>
   );
