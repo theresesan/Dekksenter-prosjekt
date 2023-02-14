@@ -38,7 +38,7 @@ function Page4() {
             klar for en ny sesong på veien.
           </p>
         </div>
-        <ul className="Price-list">
+        <ul className="Price-list1">
           <li>Personbil og suv: 799,-</li>
           <li>Bobil og lett lastebil: 899,-</li>
           <li>Lastebil og traktor: etter avtale</li>
