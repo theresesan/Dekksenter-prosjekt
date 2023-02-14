@@ -8,10 +8,14 @@ import Button from "./components/Button";
 
 // Images and Logos
 import FelgImg from "/images/felger.jpeg";
+import Banner from "/images/tire-banner.jpg";
 
 function Page3() {
   return (
     <div className="Page3">
+      <div>
+        <img className="TireBanner" src={Banner} alt="" />
+      </div>
       <div className="Felg-info">
         <div>
           <h2 className="Felg-txt">Felg</h2>

@@ -29,12 +29,12 @@ function Page2() {
         </div>
         <div>
           <p className="Dekk-info-txt">
-            Er på tide med nye dekk? Å velge riktig dekk viktig for å være trygg på
-            veien uansett vær og føre. Hos oss finner du ett godt utvalg av dekk i
+            Er det på tide med nye dekk? Å velge riktige dekk viktig for å være trygg
+            på veien uansett vær og føre. Hos oss finner du ett godt utvalg av dekk i
             forskjellige prisklasser. Vi hjelper deg med å finne de riktige dekkene
-            som er best for din bil av både sommerdekk, vinterdekk og piggdekk. Vi
-            har dekk til alle typer personbiler, varebiler, ATV og traktor. <br />{" "}
-            <br /> Ring og bestill time, eller vi bytter mens du venter.
+            som er best for din bil, både sommerdekk, vinterdekk og piggdekk. Vi har
+            dekk til alle typer personbiler, varebiler, ATV og traktor. <br /> <br />{" "}
+            Ring og bestill time, ellers bytter vi mens du venter.
           </p>
         </div>
         <Button />
