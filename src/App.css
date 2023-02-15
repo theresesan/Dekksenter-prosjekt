@@ -336,8 +336,14 @@
 
 .Page2 {
   height: 85vh;
-
+  border-top: solid black 5px;
   display: flex;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .Page2 {
+    border-top: none;
+  }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 481px) {
@@ -430,7 +436,7 @@
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .Dekk-txt {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-top: 225%;
   }
 }
@@ -476,6 +482,14 @@
   justify-content: flex-end;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .Page3 {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .Page3-img {
   height: 85vh;
   object-fit: cover;
@@ -519,9 +533,10 @@
   }
 }
 
-@media screen and (min-device-width: 482px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .Felg-info {
     justify-content: center;
+    width: 100vw;
   }
 }
 
@@ -536,21 +551,19 @@
   }
 }
 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .Felg-txt {
+    font-size: 1.8em;
+    margin-top: 8em;
+  }
+}
+
 .Felg-info-txt {
   margin-top: 1em;
   font-size: 1.3em;
   text-align: center;
   letter-spacing: 0.1em;
   line-height: 35px;
-}
-
-@media screen and (min-device-width: 482px) and (max-device-width: 768px) {
-  .Felg-info-txt {
-    font-size: 1em;
-    line-height: 1.4em;
-    font-weight: 500;
-    margin: 2em 2em 0 2em;
-  }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -566,6 +579,15 @@
   }
 }
 
+@media screen and (min-device-width: 482px) and (max-device-width: 768px) {
+  .Felg-info-txt {
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 500;
+    margin: 1em 1em 0 1em;
+  }
+}
+
 /* Page 3 */
 
 /* Page 4 */
@@ -576,6 +598,12 @@
   display: flex;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .Page4 {
+    border-top: none;
+  }
+}
+
 .Page4-img {
   height: 85vh;
   object-fit: cover;
@@ -583,7 +611,7 @@
   width: 70%;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Page4-img {
     display: none;
   }
@@ -597,7 +625,7 @@
   align-items: center;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Page4-imgbox {
     display: none;
   }
@@ -616,7 +644,7 @@
   width: 35%;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .List-dekkhotell {
     display: none;
   }
