@@ -9,9 +9,8 @@
 
 .Shop-btn {
   width: 200px;
-  height: 60px;
   background-color: #b50420;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 5%;
   border: none;
   font-size: 30px;
@@ -19,15 +18,21 @@
   color: white;
   font-family: "Jura", sans-serif;
   letter-spacing: 2px;
+  padding: 0.5em;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Shop-btn {
     font-size: 1.3em;
-    padding: 0.3em;
-    height: 4em;
     width: 8em;
-    margin-top: 10%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .Shop-btn {
+    font-size: 1.3em;
+    width: 8em;
   }
 }
 
@@ -98,7 +103,7 @@
   /* border-top: 1px solid rgb(255, 0, 0); */
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .flex-nav {
     display: none;
   }
@@ -122,6 +127,13 @@
   .carousel {
     height: 65vh;
     margin-top: 5%;
+  }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .carousel {
+    height: 63vh;
+    margin-top: 6.4em;
   }
 }
 
@@ -184,6 +196,16 @@
   }
 }
 
+@media screen and (min-device-width: 481px) and (max-device-width: 651px) {
+  .firstPageTxt {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    text-align: start;
+    align-items: flex-start;
+  }
+}
+
 .WelcomeTxt {
   position: absolute;
   color: rgb(0, 0, 0);
@@ -212,11 +234,13 @@
   display: none;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .hamburger-menu {
     display: flex;
     align-items: center;
-    margin-top: 2%;
+    margin: 1% 1%;
+    justify-content: center;
+    width: 100vw;
   }
 }
 
@@ -232,6 +256,17 @@
   margin-left: 1.5em;
 }
 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .hamburger-menu img {
+    width: 5em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 2em;
+    top: 1em;
+  }
+}
+
 .hamburger-menu .SannidalLogo {
   margin-right: 1.5em;
 }
@@ -240,10 +275,21 @@
   width: 70%;
 }
 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .hamburger-menu .SannidalLogo img {
+    width: 15em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1em;
+    top: 0.1em;
+  }
+}
+
 .hamburger-menu ul {
   display: none;
   position: absolute;
-  height: 45%;
+  height: 50%;
   top: 18%;
   background-color: #000000f1;
   list-style: none;
@@ -252,6 +298,12 @@
   width: 100vw;
   border: 1px solid #ddd;
   z-index: 9999;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .hamburger-menu ul {
+    height: 45%;
+  }
 }
 
 .hamburger-menu ul.open {
@@ -284,23 +336,36 @@
 
 .Page2 {
   height: 85vh;
-  border-top: solid black 5px;
+
   display: flex;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 481px) {
   .TireBanner {
     height: 18%;
     position: absolute;
     width: 100vw;
     object-fit: cover;
     border-bottom: solid black 5px;
+    border-top: solid black 5px;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .TireBanner {
     display: none;
+  }
+}
+
+@media screen and (min-device-width: 482px) and (max-device-width: 768px) {
+  .TireBanner {
+    height: 20%;
+    position: absolute;
+    width: 100vw;
+    object-fit: cover;
+    border-bottom: solid black 5px;
+    border-top: solid black 5px;
+    margin-top: 6em;
   }
 }
 
@@ -311,7 +376,7 @@
   width: 70%;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Page2-img {
     display: none;
   }
@@ -323,7 +388,7 @@
   margin: 0;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Page2-imgbox {
     display: none;
   }
@@ -345,6 +410,13 @@
   }
 }
 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .Dekk-info {
+    width: 100vw;
+    margin-top: 6em;
+  }
+}
+
 .Dekk-txt {
   font-size: 3em;
 }
@@ -353,6 +425,13 @@
   .Dekk-txt {
     font-size: 1.7em;
     margin-top: 145%;
+  }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .Dekk-txt {
+    font-size: 1.5em;
+    margin-top: 225%;
   }
 }
 
@@ -372,6 +451,15 @@
     line-height: 1.5em;
     margin-top: 7%;
     font-weight: 500;
+  }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .Dekk-info-txt {
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 500;
+    margin: 2em 2em 0 2em;
   }
 }
 
@@ -395,7 +483,7 @@
   width: 80%;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Page3-img {
     display: none;
   }
@@ -409,7 +497,7 @@
   justify-content: flex-end;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Page3-imgbox {
     display: none;
   }
@@ -431,8 +519,14 @@
   }
 }
 
+@media screen and (min-device-width: 482px) and (max-device-width: 768px) {
+  .Felg-info {
+    justify-content: center;
+  }
+}
+
 .Felg-txt {
-  font-size: 40px;
+  font-size: 2em;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -443,11 +537,20 @@
 }
 
 .Felg-info-txt {
-  margin-top: 30px;
+  margin-top: 1em;
   font-size: 1.3em;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 0.1em;
   line-height: 35px;
+}
+
+@media screen and (min-device-width: 482px) and (max-device-width: 768px) {
+  .Felg-info-txt {
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 500;
+    margin: 2em 2em 0 2em;
+  }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -559,6 +662,7 @@
     padding: 1em;
     color: white;
     list-style: none;
+    align-items: center;
   }
 }
 
@@ -699,6 +803,4 @@
 
 /* Page 5 */
 
-/* Media Queries */
-
-/* Media Queries */
+/*For tablets and ipads: 481px to 768px*/
