@@ -348,7 +348,7 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 481px) {
   .TireBanner {
-    height: 18%;
+    height: 13%;
     position: absolute;
     width: 100vw;
     object-fit: cover;
@@ -357,13 +357,13 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .TireBanner {
     display: none;
   }
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 769px) {
   .TireBanner {
     height: 17%;
     position: absolute;
@@ -437,7 +437,7 @@
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .Dekk-txt {
     font-size: 1.8em;
-    margin-top: 225%;
+    margin-top: 8em;
   }
 }
 
@@ -699,7 +699,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .Price-list1 {
     display: none;
   }
