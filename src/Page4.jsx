@@ -16,8 +16,8 @@ function Page4() {
         <div className="List-dekkhotell">
           <h3 className="PriceTxt">Priser dekkhotell</h3>
           <ul className="Price-list">
-            <li>Personbil og suv: 799,-</li>
-            <li>Bobil og lett lastebil: 899,-</li>
+            <li>Personbil og suv: 799,-</li> <br />
+            <li>Bobil og lett lastebil: 899,-</li> <br />
             <li>Lastebil og traktor: etter avtale</li>
           </ul>
         </div>
