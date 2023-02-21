@@ -39,8 +39,16 @@
 
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Shop-btn {
-    font-size: 2em;
+    font-size: 1.4em;
     width: 7.5em;
+  }
+}
+
+@media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
+  .Shop-btn {
+    font-size: 1.3em;
+    width: 6.5em;
+    margin-top: 0.5em;
   }
 }
 
@@ -90,7 +98,7 @@
 .flex-nav {
   display: flex;
   margin-right: 0;
-  height: 15vh;
+  height: 18vh;
 }
 
 .flex-list {
@@ -391,7 +399,7 @@
 /* Page 2 */
 
 .Page2 {
-  height: 85vh;
+  height: 82vh;
   border-top: solid black 5px;
   display: flex;
 }
@@ -432,7 +440,7 @@
 }
 
 .Page2-img {
-  height: 85vh;
+  height: 82vh;
   object-fit: cover;
   border-right: black solid 3px;
   width: 70%;
@@ -446,7 +454,7 @@
 
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Page2-img {
-    height: 85vh;
+    height: 82vh;
     width: 100%;
   }
 }
@@ -471,7 +479,7 @@
 
 .Page2-imgbox {
   width: 40%;
-  height: 85vh;
+  height: 82vh;
   margin: 0;
 }
 
@@ -540,21 +548,21 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .Dekk-txt {
     font-size: 1.7em;
-    margin-top: 3em;
+    margin-top: 1.1em;
   }
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .Dekk-txt {
     font-size: 1.8em;
-    margin-top: 5em;
+    margin-top: 3em;
   }
 }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1200px) {
   .Dekk-txt {
     font-size: 1.8em;
-    margin-top: 0.5em;
+    margin-top: 0.1em;
   }
 }
 
@@ -596,13 +604,13 @@
     margin-top: 1em;
     width: 100%;
     margin-left: 1em;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 }
 
 @media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
   .Dekk-info-txt {
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 500;
   }
 }
@@ -625,7 +633,7 @@
 /* Page 3 */
 
 .Page3 {
-  height: 85vh;
+  height: 82vh;
   border-top: solid black 5px;
   display: flex;
   width: 100vw;
@@ -642,7 +650,7 @@
 }
 
 .Page3-img {
-  height: 85vh;
+  height: 82vh;
   object-fit: cover;
   border-left: black solid 3px;
   position: absolute;
@@ -658,7 +666,7 @@
 .Page3-imgbox {
   display: flex;
   width: 50%;
-  height: 85vh;
+  height: 82vh;
   margin: 0;
   justify-content: flex-end;
 }
@@ -671,7 +679,7 @@
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1200px) {
   .Page3-imgbox {
-    height: 84.5vh;
+    height: 82vh;
     width: 40%;
   }
 }
@@ -758,13 +766,12 @@
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .Felg-txt {
     font-size: 1.9em;
-    margin-top: 3em;
+    margin-top: 8em;
   }
 }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Felg-txt {
-    margin-top: 0.5em;
     font-size: 2em;
   }
 }
@@ -836,7 +843,7 @@
 /* Page 4 */
 
 .Page4 {
-  height: 85vh;
+  height: 82vh;
   border-top: solid black 5px;
   display: flex;
 }
@@ -855,7 +862,7 @@
 }
 
 .Page4-img {
-  height: 85vh;
+  height: 82vh;
   object-fit: cover;
   border: black solid 3px;
   width: 70%;
@@ -887,7 +894,7 @@
 
 .Page4-imgbox {
   width: 50%;
-  height: 85vh;
+  height: 82vh;
   margin: 0;
   display: flex;
   align-items: center;
@@ -1082,10 +1089,10 @@
 
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Dekkhotell-txt {
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
     width: 100%;
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
 }
 
@@ -1129,10 +1136,10 @@
 
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Dekkhotell-info-txt {
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
     width: 100%;
-    line-height: 1.6;
+    line-height: 2;
   }
 }
 
