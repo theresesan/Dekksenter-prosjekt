@@ -11,7 +11,7 @@
   width: 200px;
   background-color: #b50420;
   border-radius: 5px;
-  margin-top: 1e;
+  margin-top: 1em;
   border: none;
   font-size: 1.5em;
   font-weight: 500;
@@ -62,9 +62,9 @@
 
 @media (min-width: 1301px) {
   .Shop-btn {
-    font-size: 1.6em;
+    font-size: 1.4em;
     width: 10em;
-    margin-top: 2em;
+    margin-top: 1em;
   }
 }
 
@@ -76,28 +76,19 @@
 
 /* Button */
 
-.Page1 {
-  height: 85vh;
-}
-
 /* Nav-bar styling */
 
 .Nav-logo {
-  width: 230px;
+  min-width: 24%;
+  max-width: 23%;
   margin-left: 3%;
-  margin-top: 0.5em;
   position: absolute;
-}
-
-@media screen and (min-device-width: 1201px) and (max-device-width: 1400px) {
-  .Nav-logo {
-    margin-top: 0.3em;
-  }
+  height: 15%;
+  margin-top: 0.5em;
 }
 
 .flex-nav {
   display: flex;
-  margin-right: 0;
   height: 18vh;
 }
 
@@ -117,18 +108,11 @@
   }
 }
 
-@media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
-  .flex-list {
-    margin-right: 0.5em;
-  }
-}
-
 .Nav-items {
   display: flex;
   flex-direction: row;
   list-style: none;
   width: 75%;
-  margin-top: 1%;
   position: absolute;
   justify-content: flex-end;
   justify-content: space-around;
@@ -152,7 +136,6 @@
 
 .active {
   color: rgba(255, 0, 0, 1);
-  /* border-top: 1px solid rgb(255, 0, 0); */
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
@@ -170,7 +153,7 @@
   display: flex;
   position: relative;
   width: 100%;
-  height: 75vh;
+  height: 70vh;
   border: none;
   border: solid black 7px;
 }
@@ -399,7 +382,6 @@
 /* Page 2 */
 
 .Page2 {
-  height: 82vh;
   border-top: solid black 5px;
   display: flex;
 }
@@ -443,7 +425,7 @@
   height: 82vh;
   object-fit: cover;
   border-right: black solid 3px;
-  width: 70%;
+  width: 100%;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
@@ -452,35 +434,9 @@
   }
 }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 905px) {
-  .Page2-img {
-    height: 82vh;
-    width: 100%;
-  }
-}
-
-@media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
-  .Page2-img {
-    width: 100%;
-  }
-}
-
-@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
-  .Page2-img {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1301px) {
-  .Page2-img {
-    width: 100%;
-  }
-}
-
 .Page2-imgbox {
   width: 40%;
   height: 82vh;
-  margin: 0;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
@@ -494,8 +450,8 @@
   flex-direction: column;
   align-items: center;
   font-family: "Jura", sans-serif;
-  width: 37%;
   margin-top: 2%;
+  width: 100vw;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -527,14 +483,7 @@
   }
 }
 
-@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
-  .Dekk-info {
-    margin: 1em auto;
-    width: 50%;
-  }
-}
-
-@media (min-width: 1301px) {
+@media (min-width: 1201px) {
   .Dekk-info {
     margin: 1em auto;
     width: 50%;
