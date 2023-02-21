@@ -11,9 +11,9 @@
   width: 200px;
   background-color: #b50420;
   border-radius: 5px;
-  margin-top: 5%;
+  margin-top: 1em;
   border: none;
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: 500;
   color: white;
   font-family: "Jura", sans-serif;
@@ -43,6 +43,22 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1400px) {
+  .Shop-btn {
+    width: 9em;
+    font-size: 1.3em;
+    margin-top: 1.5em;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Shop-btn {
+    font-size: 1.6em;
+    width: 10em;
+    margin-top: 2em;
+  }
+}
+
 .Shop-btn:hover {
   cursor: pointer;
   background-color: #585858;
@@ -62,6 +78,12 @@
   margin-left: 3%;
   margin-top: 1%;
   position: absolute;
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1400px) {
+  .Nav-logo {
+    margin-top: 0.3em;
+  }
 }
 
 .flex-nav {
@@ -434,6 +456,18 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Page2-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Page2-img {
+    width: 100%;
+  }
+}
+
 .Page2-imgbox {
   width: 50%;
   height: 85vh;
@@ -453,7 +487,19 @@
   }
 }
 
-@media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
+@media screen and (min-device-width: 906px) and (max-device-width: 1300px) {
+  .Page2-imgbox {
+    width: 40%;
+  }
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Page2-imgbox {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1301px) {
   .Page2-imgbox {
     width: 40%;
   }
@@ -484,7 +530,30 @@
 
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Dekk-info {
+    font-size: 0.8em;
+    width: 50%;
     margin: 1.3em auto;
+  }
+}
+
+@media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
+  .Dekk-info {
+    margin: 1em auto;
+    width: 50%;
+  }
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Dekk-info {
+    margin: 1em auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Dekk-info {
+    margin: 1em auto;
+    width: 50%;
   }
 }
 
@@ -506,17 +575,9 @@
   }
 }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 905px) {
-  .Dekk-info {
-    font-size: 0.8em;
-    width: 50%;
-  }
-}
-
-@media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
-  .Dekk-info {
-    margin: 1em auto;
-    width: 50%;
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Dekk-txt {
+    font-size: 2em;
   }
 }
 
@@ -563,6 +624,19 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Dekk-info-txt {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Dekk-info-txt {
+    font-size: 1.4em;
+    line-height: 2em;
+  }
+}
+
 /* Page 2 */
 
 /* Page 3 */
@@ -604,6 +678,18 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Page3-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Page3-img {
+    width: 100%;
+  }
+}
+
 .Page3-imgbox {
   display: flex;
   width: 50%;
@@ -621,6 +707,18 @@
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Page3-imgbox {
     height: 84.5vh;
+    width: 40%;
+  }
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Page3-imgbox {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Page3-imgbox {
     width: 40%;
   }
 }
@@ -660,6 +758,20 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Felg-info {
+    margin: 1em auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Felg-info {
+    margin: 1em auto;
+    width: 50%;
+  }
+}
+
 .Felg-txt {
   font-size: 2em;
 }
@@ -682,6 +794,12 @@
   .Felg-txt {
     margin-top: 0.5em;
     font-size: 2.5em;
+  }
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Felg-txt {
+    font-size: 2em;
   }
 }
 
@@ -728,6 +846,19 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Felg-info-txt {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Felg-info-txt {
+    font-size: 1.4em;
+    line-height: 2em;
+  }
+}
+
 /* Page 3 */
 
 /* Page 4 */
@@ -770,6 +901,18 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Page4-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Page4-img {
+    width: 100%;
+  }
+}
+
 .Page4-imgbox {
   width: 50%;
   height: 85vh;
@@ -787,6 +930,18 @@
 @media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Page4-imgbox {
     width: 45%;
+  }
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Page4-imgbox {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Page4-imgbox {
+    width: 40%;
   }
 }
 
@@ -813,6 +968,18 @@
   .List-dekkhotell {
     text-align: center;
     width: 45%;
+  }
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .List-dekkhotell {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .List-dekkhotell {
+    width: 40%;
   }
 }
 
@@ -906,6 +1073,20 @@
   }
 }
 
+@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
+  .Dekkhotell-info {
+    margin: 1em auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Dekkhotell-info {
+    margin: 1em auto;
+    width: 50%;
+  }
+}
+
 .Dekkhotell-txt {
   font-size: 40px;
 }
@@ -987,6 +1168,13 @@
   .Dekkhotell-info-txt {
     font-size: 1.1em;
     font-weight: 500;
+  }
+}
+
+@media (min-width: 1301px) {
+  .Dekkhotell-info-txt {
+    font-size: 1.4em;
+    line-height: 2em;
   }
 }
 /* Page 4 */
