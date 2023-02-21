@@ -470,7 +470,7 @@
 }
 
 .Page2-imgbox {
-  width: 50%;
+  width: 40%;
   height: 85vh;
   margin: 0;
 }
@@ -478,31 +478,6 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Page2-imgbox {
     display: none;
-  }
-}
-
-@media screen and (min-device-width: 769px) and (max-device-width: 905px) {
-  .Page2-imgbox {
-    height: 85vh;
-    width: 40%;
-  }
-}
-
-@media screen and (min-device-width: 906px) and (max-device-width: 1300px) {
-  .Page2-imgbox {
-    width: 40%;
-  }
-}
-
-@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
-  .Page2-imgbox {
-    width: 40%;
-  }
-}
-
-@media (min-width: 1301px) {
-  .Page2-imgbox {
-    width: 40%;
   }
 }
 
