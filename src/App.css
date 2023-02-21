@@ -381,6 +381,8 @@
 
 /* Page 2 */
 
+/*Fikse overskrift pg dekk 403px*/
+
 .Page2 {
   border-top: solid black 5px;
   display: flex;
@@ -884,6 +886,7 @@
   border-radius: 7px;
   font-family: "Jura", sans-serif;
   width: 35%;
+  text-shadow: 0px 0px 7px rgb(0, 0, 0);
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
