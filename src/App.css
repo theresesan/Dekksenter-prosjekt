@@ -59,20 +59,9 @@
 
 .Nav-logo {
   width: 230px;
-  margin-left: 10%;
-}
-
-@media screen and (min-device-width: 769px) and (max-device-width: 905px) {
-  .Nav-logo {
-    width: 13em;
-    margin-top: 2em;
-  }
-}
-
-@media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
-  .Nav-logo {
-    margin-top: 0.5em;
-  }
+  margin-left: 3%;
+  margin-top: 1%;
+  position: absolute;
 }
 
 .flex-nav {
@@ -88,8 +77,6 @@
   font-size: 23px;
   letter-spacing: 2px;
   font-weight: 600;
-  width: 90%;
-  justify-content: flex-end;
   font-family: "Jura", sans-serif;
 }
 
@@ -101,7 +88,7 @@
 
 @media screen and (min-device-width: 906px) and (max-device-width: 1200px) {
   .flex-list {
-    margin-right: 1.3em;
+    margin-right: 0.5em;
   }
 }
 
@@ -109,10 +96,12 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  width: 100%;
+  width: 75%;
   margin-top: 1%;
+  position: absolute;
   justify-content: flex-end;
   justify-content: space-around;
+  right: 0%;
 }
 
 .list-item {
@@ -407,7 +396,7 @@
   }
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 769px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .TireBanner {
     height: 17%;
     position: absolute;
@@ -629,7 +618,7 @@
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 905px) {
+@media screen and (min-device-width: 769px) and (max-device-width: 905px) {
   .Page3-imgbox {
     height: 84.5vh;
     width: 40%;
