@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-/* Button */
+/* Dekkshop Button */
 
 .Shop-btn {
   width: 200px;
@@ -74,7 +74,7 @@
   transition: 0.3s;
 }
 
-/* Button */
+/* Dekkshop Button */
 
 /* Nav-bar styling */
 
@@ -146,7 +146,7 @@
 
 /* Nav-bar styling */
 
-/* Carousel */
+/* Carousel First-Page */
 
 .carousel {
   overflow: hidden;
@@ -212,7 +212,9 @@
   opacity: 1;
 }
 
-/* Carousel */
+/* Carousel First-Page */
+
+/* First Page */
 
 .flexContainer {
   font-family: "Jura", sans-serif;
@@ -274,6 +276,8 @@
   padding: 10px 60px;
   align-items: center;
 }
+
+/* First Page */
 
 /* Hamburger Menu */
 
@@ -381,8 +385,6 @@
 
 /* Page 2 + 3 */
 
-/*Fikse overskrift pg dekk 403px*/
-
 .Page2,
 .Page3 {
   border-top: solid black 5px;
@@ -443,6 +445,13 @@
 .Page2-imgbox {
   width: 40%;
   height: 82vh;
+}
+
+.Page3-imgbox {
+  display: flex;
+  width: 40%;
+  height: 82vh;
+  justify-content: flex-end;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
@@ -596,30 +605,6 @@
 
 /* Page 2 + 3 */
 
-/* Page 3 */
-
-.Page3-imgbox {
-  display: flex;
-  width: 50%;
-  height: 82vh;
-  margin: 0;
-  justify-content: flex-end;
-}
-
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .Page3-imgbox {
-    display: none;
-  }
-}
-
-@media (min-width: 769px) {
-  .Page3-imgbox {
-    width: 40%;
-  }
-}
-
-/* Page 3 */
-
 /* Page 4 */
 
 .Page4 {
@@ -654,19 +639,7 @@
   }
 }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 1200px) {
-  .Page4-img {
-    width: 100%;
-  }
-}
-
-@media screen and (min-device-width: 1201px) and (max-device-width: 1300px) {
-  .Page4-img {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1301px) {
+@media (min-width: 769px) {
   .Page4-img {
     width: 100%;
   }
@@ -1012,5 +985,3 @@
 /* Footer */
 
 /* Page 5 */
-
-/*For tablets and ipads: 481px to 768px*/
