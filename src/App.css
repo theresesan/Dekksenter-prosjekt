@@ -398,7 +398,9 @@
   }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+/* Banner mobile/tablet version*/
+
+@media screen and (min-device-width: 320px) and (max-device-width: 769px) {
   .TireBanner {
     height: 13%;
     position: absolute;
@@ -415,7 +417,7 @@
   }
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 769px) {
   .TireBanner {
     height: 17%;
     width: 100vw;
@@ -425,6 +427,8 @@
     margin-top: 6em;
   }
 }
+
+/* Banner mobile/tablet version*/
 
 .Page2-img,
 .Page3-img {
