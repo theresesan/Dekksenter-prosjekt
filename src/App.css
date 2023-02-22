@@ -919,7 +919,6 @@
 /* Page 5 */
 
 .Page5 {
-  height: 83vh;
   border-top: solid black 5px;
   display: flex;
   flex-direction: row-reverse;
@@ -952,38 +951,68 @@
 
 /* Footer */
 
-.Footer-logo {
-  color: white;
-  font-size: 15px;
+.Footer-icon {
+  color: rgb(0, 0, 0);
+  font-size: 1.3em;
   font-family: "Jura", sans-serif;
+}
+
+.FooterTxt {
+  font-size: 0.8em;
+  font-weight: 600;
+  display: flex;
+  padding: 1.4em;
+}
+
+.IconFooterBox {
+  display: flex;
+  flex-direction: column;
 }
 
 .Footer {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.956);
+  position: absolute;
+  bottom: 0;
+  background-color: #a3a3a3b7;
   justify-content: center;
   width: 100vw;
-  padding: 30px;
   align-items: center;
-  justify-content: space-around;
-  align-items: flex-start;
-  height: 30vh;
-  margin-top: 10vh;
+  justify-content: flex-start;
+}
+
+.TxtFooterBox {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
 }
 
 .material-symbols-outlined {
-  color: white;
-  font-size: 40px;
-  padding: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 3em;
 }
 
 .Mail,
 .Phone,
-.AddresBox,
-.Clock {
+.AddresBox {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 0.6em;
+}
+
+.FooterLogo {
+  display: flex;
+  width: 20%;
+  position: absolute;
+  right: 3em;
+  top: 1em;
+}
+
+.Clock {
+  position: absolute;
+  right: 8em;
+  top: 10em;
+  text-align: center;
 }
 
 /* Footer */

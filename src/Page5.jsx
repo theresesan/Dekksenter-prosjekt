@@ -9,6 +9,7 @@ import Button from "./components/Button";
 // Images and Logos
 import Dekksenter from "/images/dekksenter-img.png";
 import FacebookIcon from "/images/facebook-icon.png";
+import SannidalDekksenter from "/images/SannidalDekksenter.png";
 
 function Page5() {
   return (
@@ -31,41 +32,49 @@ function Page5() {
         <img className="Page5-img" src={Dekksenter} alt="Bilde av felger" />
       </div>
       <div className="Footer">
-        <div className="Mail">
-          <div>
-            {" "}
-            <span className="material-symbols-outlined">mail</span>
+        <div className="IconFooterBox">
+          <div className="Mail">
+            <div>
+              {" "}
+              <span className="material-symbols-outlined">mail</span>
+            </div>
           </div>
-          <div className="Footer-logo">
-            <p>post@sannidaldekkogfelg.no</p>
+          <div className="Phone">
+            <div>
+              <span className="material-symbols-outlined">call</span>
+            </div>
+          </div>
+          <div className="AddresBox">
+            <div>
+              {" "}
+              <span class="material-symbols-outlined">location_on</span>
+            </div>
           </div>
         </div>
-        <div className="Phone">
-          <div>
-            <span className="material-symbols-outlined">call</span>
+        <div className="TxtFooterBox">
+          <div className="Footer-icon">
+            <p className="FooterTxt">Post@sannidaldekkogfelg.no</p>
           </div>
-          <div className="Footer-logo">
-            <p>
-              910 09 200 <br /> 410 47 999
+          <div className="Footer-icon">
+            <p className="FooterTxt">
+              910 09 200 / <br /> 410 47 999
             </p>
           </div>
-        </div>
-        <div className="AddresBox">
-          <div>
-            {" "}
-            <span class="material-symbols-outlined">location_on</span>
-          </div>
-          <div className="Footer-logo">
-            <p>Refsalen 1, 3766 Sannidal</p>
+          <div className="Footer-icon">
+            <p className="FooterTxt">Refsalen 1, 3766 Sannidal</p>
           </div>
         </div>
         <div>
+          <img
+            className="FooterLogo"
+            src={SannidalDekksenter}
+            alt="Sannidal Dekksenter logo"
+          />
           <div className="Clock">
-            {" "}
-            <span class="material-symbols-outlined">schedule</span>
-          </div>
-          <div className="Footer-logo">
-            <p>Kl 08-16 (man-fre)</p>
+            <p>
+              Man - fre: 06-16 <br />
+              Lørdag: Stengt
+            </p>
           </div>
         </div>
       </div>
